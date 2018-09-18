@@ -1,8 +1,8 @@
 def square_array(array)
-  squared_array = []
+  array_to_square = []
   array.each do |num|
-    square = num ** 2
-    squared_array=square.inject
+    squared = num ** 2
+    array_to_square << squared
   end
-  squared_array
+array_to_square
 end
